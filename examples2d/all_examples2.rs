@@ -27,6 +27,7 @@ mod locked_rotations2;
 mod one_way_platforms2;
 mod platform2;
 mod polyline2;
+mod prismatic_joint2;
 mod pyramid2;
 mod restitution2;
 mod rope_joints2;
@@ -91,6 +92,7 @@ pub fn main() {
         ("One-way platforms", one_way_platforms2::init_world),
         ("Platform", platform2::init_world),
         ("Polyline", polyline2::init_world),
+        ("Prismatic Joint", prismatic_joint2::init_world),
         ("Pyramid", pyramid2::init_world),
         ("Restitution", restitution2::init_world),
         ("Rope Joints", rope_joints2::init_world),
